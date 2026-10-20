@@ -1,0 +1,16 @@
+:root{--bg:#1a1d23;--panel:#22262e;--line:#353b46;--tx:#eceae4;--mut:#9aa0ab;--cut:#ffe14d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 "Archivo",system-ui,sans-serif}
+a{color:var(--cut)}
+.wrap{max-width:720px;margin:0 auto;padding:40px 16px 80px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.brand{font-size:24px;font-weight:800;font-variation-settings:"wdth" 125;display:flex;align-items:center;gap:10px;color:var(--tx);text-decoration:none}
+.brand i{display:inline-block;width:12px;height:20px;background:var(--cut);transform:skewX(-14deg)}
+nav{display:flex;gap:16px;font-size:14px}nav a{color:var(--mut);text-decoration:none}nav a:hover,nav a[aria-current]{color:var(--tx)}
+h1{font-size:34px;line-height:1.15;margin:0 0 14px;font-weight:800;font-variation-settings:"wdth" 112}
+h2{font-size:20px;margin:36px 0 8px;font-weight:700}
+p,li{color:#d4d1ca}.lead{font-size:19px;color:var(--tx)}
+.lang{border-top:1px solid var(--line);margin-top:56px;padding-top:32px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:24px 0}
+footer{margin-top:64px;font-size:14px;color:var(--mut);border-top:1px solid var(--line);padding-top:20px}
+small{color:var(--mut)}
